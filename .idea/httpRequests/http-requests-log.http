@@ -1,0 +1,12 @@
+GET http://localhost:8080/user
+
+<> 2020-02-16T065607.200.json
+
+###
+
+GET http://localhost:8080/user
+
+<> 2020-02-16T064908.401.json
+
+###
+
