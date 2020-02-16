@@ -16,7 +16,7 @@ public class RecipeServiceImplementation {
         this.recipesRepository = recipesRepository;
     }
 
-    public List<Recipe> ListAll(){
+    public List<Recipe> listAll(){
         return this.recipesRepository.ListAll();
     }
 
