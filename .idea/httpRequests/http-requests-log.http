@@ -1,3 +1,9 @@
+GET http://localhost:8080/recipes
+
+<> 2020-02-16T075342.200.json
+
+###
+
 GET http://localhost:8080/ingredients
 
 <> 2020-02-16T073850.200.json

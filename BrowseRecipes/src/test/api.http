@@ -18,3 +18,13 @@ GET http://localhost:8080/ingredients
  %}
 
 ###
+
+GET http://localhost:8080/recipes
+
+> {%
+ client.test("Request executed succesfully", function() {
+   client.assert(response.status == 200, "Response status is not 200")
+ });
+ %}
+
+###

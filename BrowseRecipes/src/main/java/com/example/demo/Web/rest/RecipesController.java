@@ -23,6 +23,6 @@ public class RecipesController {
 
     @GetMapping
     public List<Recipe> ListAll(){
-        recipeService.ListAll();
+        return this.recipeService.ListAll();
     }
 }
