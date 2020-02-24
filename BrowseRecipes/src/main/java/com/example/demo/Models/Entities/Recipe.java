@@ -31,8 +31,10 @@ public class Recipe {
     @ManyToMany(mappedBy = "recipes")
     private List<Ingredient> ingredients;
 
+    private String imgUrl;
 
 
+    @JsonIgnore
     private boolean deleted;
 
 

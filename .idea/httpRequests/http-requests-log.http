@@ -1,5 +1,47 @@
 GET http://localhost:8080/recipes
 
+<> 2020-02-24T072053.200.json
+
+###
+
+POST http://localhost:8080/ingredients
+Content-Type: application/x-www-form-urlencoded
+
+name=Patlidzan&veggie=true
+
+<> 2020-02-24T071943.201.json
+
+###
+
+POST http://localhost:8080/ingredients
+Content-Type: application/x-www-form-urlencoded
+
+name=Patlidzan&veggie=true
+
+<> 2020-02-24T071820.201.json
+
+###
+
+POST http://localhost:8080/ingredients
+Content-Type: application/x-www-form-urlencoded
+
+name=Patlidzan&veggie=true
+
+<> 2020-02-24T071635.201.json
+
+###
+
+POST http://localhost:8080/ingredients
+Content-Type: application/x-www-form-urlencoded
+
+name=Patlidzan&veggie=true
+
+<> 2020-02-24T071528.201.json
+
+###
+
+GET http://localhost:8080/recipes
+
 <> 2020-02-16T075342.200.json
 
 ###

@@ -3,11 +3,11 @@ package com.example.demo.Web.rest;
 
 import com.example.demo.Models.Entities.Ingredient;
 import com.example.demo.Services.ServiceInterfaces.IngredientService;
+import org.springframework.http.HttpStatus;
 import org.springframework.util.MimeTypeUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -27,5 +27,23 @@ public class IngredientsController {
         return ingredientService.ListAll();
     }
 
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    public Ingredient CreateIngredient(
+            @RequestParam(value = "name") String name,
+            @RequestParam(value = "veggie") boolean veggie
+    ){
+        Ingredient tmp = new Ingredient();
+        tmp.setIngredient(name);
+        tmp.setVeggie(veggie);
+        tmp.setRecipes(new ArrayList<>());
+        return ingredientService.CreateIngredient(tmp);
+    }
+
+
+    @DeleteMapping("/{name}")
+    public Ingredient DeleteIngredient(@PathVariable String name){
+        return this.ingredientService.Delete(name);
+    }
 
 }

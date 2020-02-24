@@ -19,4 +19,19 @@ public class JpaIngredient implements IngredientsRepository {
     public List<Ingredient> ListAll() {
         return jpaRepositoryIngredient.getall();
     }
+
+    @Override
+    public Ingredient CreateIngredient(Ingredient ingredient) {
+        return jpaRepositoryIngredient.save(ingredient);
+    }
+
+    @Override
+    public Ingredient Delete(String name) {
+        Ingredient delete = jpaRepositoryIngredient.Find(name);
+        delete.setDeleted(true);
+        jpaRepositoryIngredient.save(delete);
+        return delete;
+    }
+
+
 }

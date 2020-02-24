@@ -7,4 +7,8 @@ import java.util.List;
 public interface IngredientsRepository {
 
     public List<Ingredient> ListAll();
+
+    public Ingredient CreateIngredient(Ingredient ingredient);
+
+    public Ingredient Delete(String name);
 }

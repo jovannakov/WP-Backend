@@ -21,4 +21,14 @@ public class IngredientServiceImplementation implements IngredientService {
     public List<Ingredient> ListAll() {
         return this.ingredientsRepository.ListAll();
     }
+
+    @Override
+    public Ingredient CreateIngredient(Ingredient ingredient) {
+        return ingredientsRepository.CreateIngredient(ingredient);
+    }
+
+    @Override
+    public Ingredient Delete(String name) {
+        return ingredientsRepository.Delete(name);
+    }
 }

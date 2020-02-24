@@ -1,5 +1,6 @@
 package com.example.demo.Models.Entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -7,6 +8,7 @@ import lombok.Setter;
 import org.hibernate.annotations.Where;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -28,14 +30,18 @@ public class Ingredient {
     private boolean isVeggie;
 
     @ManyToMany
+    @JsonIgnore
     private List<Recipe> recipes;
 
 
+    @Column(columnDefinition = "boolean default false")
+    @JsonIgnore
     private boolean deleted;
 
 
     public void init(){
         this.deleted = false;
+        this.recipes = new ArrayList<>();
     }
 
 
