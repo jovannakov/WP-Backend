@@ -10,4 +10,7 @@ public interface JpaRepositoryRecipe extends JpaRepository<Recipe, Integer> {
 
     @Query("select r from Recipe r")
     List<Recipe> getall();
+
+    @Query("select r.name from Recipe r where r.name like :name")
+    Recipe Find(String name);
 }

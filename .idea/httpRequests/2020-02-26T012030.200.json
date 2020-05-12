@@ -1,0 +1,17 @@
+[
+  {
+    "ingredient": "Kashkaval",
+    "id": 1,
+    "veggie": true
+  },
+  {
+    "ingredient": "Kecap",
+    "id": 2,
+    "veggie": true
+  },
+  {
+    "ingredient": "Sunka",
+    "id": 3,
+    "veggie": true
+  }
+]

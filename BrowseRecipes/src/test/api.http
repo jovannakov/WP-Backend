@@ -51,3 +51,40 @@ client.test("Request executed successfully", function() {
 %}
 
 ###
+
+POST http://localhost:8080/recipes
+Content-Type: application/x-www-form-urlencoded
+
+name=tava&description=opis&img=url na slika&veggie=false&ingredients=Kashkaval,Kecap,Sunka
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 201, "Response status is not 201");
+});
+%}
+
+###
+
+GET http://localhost:8080/recipes?name=tava
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+%}
+
+###
+
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Sfaf&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 201, "Response status is not 201");
+});
+%}
+
+###

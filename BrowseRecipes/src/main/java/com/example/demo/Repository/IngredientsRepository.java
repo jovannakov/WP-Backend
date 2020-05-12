@@ -11,4 +11,6 @@ public interface IngredientsRepository {
     public Ingredient CreateIngredient(Ingredient ingredient);
 
     public Ingredient Delete(String name);
+
+    public Ingredient Find(String name);
 }

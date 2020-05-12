@@ -1,0 +1,7 @@
+{
+  "cause": {
+    "cause": null,
+    "message": "For input string: \"tava\""
+  },
+  "message": "Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value 'tava'; nested exception is java.lang.NumberFormatException: For input string: \"tava\""
+}

@@ -6,4 +6,6 @@ import java.util.List;
 public interface UserRepository {
 
     public List<User> GetAllUsers();
+
+    void CreateUser(User user);
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "fsfs",
+    "description": "opis",
+    "imgUrl": "url na slika",
+    "veggie": false
+  },
+  {
+    "name": "Pica",
+    "description": "opis",
+    "imgUrl": "url na slika",
+    "veggie": false
+  },
+  {
+    "name": "Sendvic",
+    "description": "opis",
+    "imgUrl": "url na slika",
+    "veggie": false
+  },
+  {
+    "name": "tava",
+    "description": "opis",
+    "imgUrl": "url na slika",
+    "veggie": false
+  }
+]

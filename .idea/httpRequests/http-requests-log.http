@@ -1,3 +1,276 @@
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Sfaf&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Sfaf&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+<> 2020-03-02T101737.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Sfaf&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Sfaf&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Sfaf&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Sfaf&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+<> 2020-03-02T100912.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Sfaf&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+<> 2020-03-02T100816.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Sfaf&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+<> 2020-03-02T100638.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Sfaf&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+<> 2020-03-02T100442.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Sfaf&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Sfaf&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+<> 2020-03-02T095924.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Pajo&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+<> 2020-03-02T095655.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Teslka&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Zoki&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Jovan&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Jovan&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Jovan&email=jovan@gmail.com&password=laptop&bio=jas sum mnogu dobar decko
+
+###
+
+POST http://localhost:8080/recipes
+Content-Type: application/x-www-form-urlencoded
+
+name=tava&description=opis&img=url na slika&veggie=false&ingredients=Kashkaval,Kecap,Sunka
+
+<> 2020-03-01T083156.201.json
+
+###
+
+GET http://localhost:8080/recipes?name=tava
+
+<> 2020-02-28T100257.500.json
+
+###
+
+GET http://localhost:8080/recipes?name=tava
+
+<> 2020-02-28T100123.500.json
+
+###
+
+GET http://localhost:8080/recipes?name=tava
+
+<> 2020-02-28T095950.500.json
+
+###
+
+GET http://localhost:8080/recipes/tava
+
+<> 2020-02-28T095843.500.json
+
+###
+
+GET http://localhost:8080/recipes
+
+<> 2020-02-28T095835.200.json
+
+###
+
+GET http://localhost:8080/recipes/tava
+
+<> 2020-02-28T095823.500.json
+
+###
+
+GET http://localhost:8080/recipes/tava
+
+<> 2020-02-28T095650.500.json
+
+###
+
+POST http://localhost:8080/recipes
+Content-Type: application/x-www-form-urlencoded
+
+name=tava&description=opis&img=url na slika&veggie=false&ingredients=Kashkaval,Kecap,Sunka
+
+<> 2020-02-28T093332.201.json
+
+###
+
+POST http://localhost:8080/recipes
+Content-Type: application/x-www-form-urlencoded
+
+name=jgjg&description=opis&img=url na slika&veggie=false&ingredients=Kashkaval,Kecap,Sunka
+
+###
+
+POST http://localhost:8080/recipes
+Content-Type: application/x-www-form-urlencoded
+
+name=fsfs&description=opis&img=url na slika&veggie=false&ingredients=Kashkaval,Kecap,Sunka
+
+<> 2020-02-27T092457.201.json
+
+###
+
+POST http://localhost:8080/recipes
+Content-Type: application/x-www-form-urlencoded
+
+name=fsfs&description=opis&img=url na slika&veggie=false&ingredients={Kashkaval,Kecap,Sunka}
+
+###
+
+POST http://localhost:8080/recipes
+Content-Type: application/x-www-form-urlencoded
+
+name=fsfs&description=opis&img=url na slika&veggie=false&ingredients={Kashkaval,Kecap,Sunka}
+
+###
+
+POST http://localhost:8080/recipes
+Content-Type: application/x-www-form-urlencoded
+
+name=Sendvic&description=opis&img=url na slika&veggie=false&ingredients={Kashkaval,Kecap,Sunka}
+
+<> 2020-02-27T090708.201.json
+
+###
+
+POST http://localhost:8080/recipes
+Content-Type: application/x-www-form-urlencoded
+
+name=Pica&description=opis&img=url na slika&veggie=false&ingredients={Kashkaval,Kecap,Sunka}
+
+<> 2020-02-27T085954.201.json
+
+###
+
+POST http://localhost:8080/recipes
+Content-Type: application/x-www-form-urlencoded
+
+name=Pica&description=opis&img=url na slika&veggie=false&ingredients={Kashkaval,Kecap,Sunka}
+
+<> 2020-02-26T012034.400.json
+
+###
+
+GET http://localhost:8080/ingredients
+
+<> 2020-02-26T012030.200.json
+
+###
+
+POST http://localhost:8080/recipes
+Content-Type: application/x-www-form-urlencoded
+
+name=Pica&description=opis&img=url_na_slika&veggie=false
+
+<> 2020-02-26T010456.201.json
+
+###
+
+POST http://localhost:8080/recipes
+
+name=Pica&description=opis na ovaa ubava pica&img=url_na_slika&veggie=false
+
+<> 2020-02-26T010028.400.json
+
+###
+
 GET http://localhost:8080/recipes
 
 <> 2020-02-24T072053.200.json

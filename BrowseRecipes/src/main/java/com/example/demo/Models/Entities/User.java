@@ -17,7 +17,9 @@ import javax.validation.constraints.Email;
 public class User {
 
     @Id
-    private String userName;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(updatable = false, nullable = false)
+    private int Id;
 
     private String eMail;
 

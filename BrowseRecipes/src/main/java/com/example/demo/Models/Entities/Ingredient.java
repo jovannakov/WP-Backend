@@ -21,7 +21,7 @@ public class Ingredient {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", updatable = false, nullable = false)
+    @Column(updatable = false, nullable = false)
     private int Id;
 
     private String ingredient;
@@ -29,8 +29,8 @@ public class Ingredient {
     @Column(columnDefinition = "boolean default false")
     private boolean isVeggie;
 
-    @ManyToMany
     @JsonIgnore
+    @ManyToMany(mappedBy = "ingredients")
     private List<Recipe> recipes;
 
 

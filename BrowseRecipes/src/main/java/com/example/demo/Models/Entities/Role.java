@@ -19,8 +19,8 @@ import javax.persistence.Id;
 public class Role {
 
     @Id
-    private int Id;
+    public int Id;
 
-    private String role;
+    public String role;
 
 }

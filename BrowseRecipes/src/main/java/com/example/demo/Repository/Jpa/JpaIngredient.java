@@ -33,5 +33,11 @@ public class JpaIngredient implements IngredientsRepository {
         return delete;
     }
 
+    @Override
+    public Ingredient Find(String name) {
+        Ingredient i = this.jpaRepositoryIngredient.Find(name);
+        return i;
+    }
+
 
 }

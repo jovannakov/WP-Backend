@@ -20,4 +20,9 @@ public class JpaUser implements UserRepository {
     public List<User> GetAllUsers() {
         return jpaRepositoryUser.getall();
     }
+
+    @Override
+    public void CreateUser(User user) {
+        this.jpaRepositoryUser.save(user);
+    }
 }
